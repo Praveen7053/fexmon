@@ -1706,7 +1706,7 @@ body{
 						<button class="btn_browse_categories_all">
 							<div>
 								<i class="fas fa-tshirt"></i>
-									<p style="margin:0px; padding:0px; margin-right:53px;">Traval & Praveens</p>
+									<p style="margin:0px; padding:0px; margin-right:53px;">Traval & direction</p>
 							</div>
 						</button>
 						
