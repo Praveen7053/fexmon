@@ -1,0 +1,744 @@
+
+*{
+	box-sizing:border-box;
+	outline:none;
+	
+}
+
+body{
+	margin:0px;
+	padding:0px;	
+	box-sizing: border-box;
+	overflow-x: hidden; 
+	
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    overflow: visible;
+    width: 8px;
+}
+
+
+.container_of_all_div{	
+		position:absolute;
+		margin:0px;
+		padding:0px;
+		height:640vh;
+		width:100vw;
+		margin-top:0px;
+		border:2px solid red;
+	}
+	
+	
+.header1{
+	overflow: hidden;
+	background-color: white;
+	
+	top: 0;
+	height:50px;
+	width: 100%;
+	border:1px solid #F0F8FF;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+}
+
+
+.header2{
+	overflow: hidden;
+	width:auto;
+	height:80px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	background-color:white;
+	z-index:9999999;
+	 
+	}
+
+	
+	
+.login_btn{
+	position:absolute;
+	float:right;
+	margin-right:230px;
+	margin-top:18px;
+	color:gray;
+	background-color:white;
+	background-color:white;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+.wel_logo{
+	position:absolute;
+	color:black;
+	color:gray;
+	top:5px;
+	font-size:13px;	
+	margin-left:150px;	
+	font-family: Poppins,sans-serif;
+}
+
+.contact_btn{
+	height:20px;
+	width:90px;
+	margin-left:1050px;
+	Margin-top:16px;
+	color:gray;
+	background-color:white;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+.need_btn{
+	
+	height:20px;
+	width:100px;
+	margin-top:16px;
+	margin-right:9px;
+	color:gray;
+	background-color:white;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.search_bar{
+	
+	width:600px;
+	height:50px;
+	margin-left:370px;
+	margin-top:17px;
+	padding:10px;
+	border-style:rounded;
+}
+
+.serach_icon{
+	position:relative;
+}
+
+.serach_icon i{
+	position:absolute;
+	font-size:30px;
+	top:25px;
+	left:920px;
+	-webkit-text-stroke: 2px white;
+
+}
+
+.header_right{
+	
+	margin-left:980px;
+	margin-top:-46px;
+	right:370px;
+	padding:0px;
+	
+	width:500px;
+	height:50px;
+	font-family: Poppins,sans-serif;
+}
+
+
+.hert_btn{
+	position:relative;
+	
+	height:100%;
+	width:30%;
+	border:1px solid red;
+	margin-top:-140px;
+	margin-left:150px;
+}
+
+.call_now{
+	margin-bottom:10px;
+	##border:1px solid red;
+	width:40%;
+	height:100%;
+}
+
+.hert_btn i{
+	float:left;
+	font-size:30px;
+	margin-left:1px;
+	margin-top:4px;
+}
+
+.call_now i{
+	float:left;
+	font-size:25px;
+	margin-left:6px;
+	margin-top:4px;
+	
+}
+
+.shopping_crt{
+	position:relative;
+	margin-top:32px;
+	margin-left:195px;
+	
+	width:40%;
+	height:100%;
+}
+
+.shopping_crt i{
+	float:right;
+	top:30px;
+	bottom:60px;
+	font-size:30px;
+	margin-top:-55px;
+	margin-right:45px;
+	
+}
+
+/* Start here to body section of the wesite */
+.container_01{
+	
+	
+	height:520px;
+	width:1180px;
+	margin-left:150px;
+	margin-top:20px;
+	
+}
+
+.browse_categories{
+	float:left;
+	width:23%;
+	height:100%;
+	
+	background-color:#fff7e6;
+}
+
+.image_slider_01{
+	
+	width:51%;
+	height:100%;
+	margin-left:290px;
+	overflow:hidden;
+	
+}
+
+.image_slider_01 img{
+	height:100%;
+	width:100%;
+}
+
+
+.new_aarrivel_01{
+	
+	width:23%;
+	height:100%;
+	margin-left:910px;
+	margin-top:-519px;
+	
+	
+}
+
+.new_aarrivel_01 img{
+	height:100%;
+	width:100%;
+}
+
+.arriva_0l{
+	
+	width:100%;
+	height:48%;
+	margin-top:;
+	margin-left:;
+	
+	
+}
+
+.arriva_02{
+	
+	width:100%;
+	height:48%;
+	margin-top:20px;
+	margin-left:;
+	
+	
+}
+
+.container_02{
+	
+	height:250px;
+	width:1180px;
+	margin-top:15px;
+}
+
+.container_03{
+	height:100px;
+	width:1180px;
+	margin-top:50px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.btn_browse_categories_all{
+	width:80%;
+	padding:13px;
+	margin-left:23px;
+	font-size:13px;
+	background-color:#fff7e6;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;	
+}
+
+
+.btn_browse_categories_all i{
+	font-size:20px;
+	float:left;
+	font-color:#675545;
+	color:#675545;
+}
+
+.btn_browse_categories_all p{
+	color:#675545;
+}
+
+
+.container_04{
+	width:100%;
+	height:850px;
+	margin-top:100px;
+	
+}
+
+.featured_products_product_name_class_A{
+	height:6%;
+	width:100%;
+	display:grid;
+	justify-content:center;
+	items-place:center;
+	align-items:center;
+}
+
+.featured_products_product_name_class_A span{
+	font-size:10px;
+	color:#8c8c8c;
+}
+
+.featured_products_product_qulity_class_A{
+	height:8%;
+	width:100%;
+	display:grid;
+	justify-content:center;
+	items-place:center;
+	align-items:center;
+}
+
+.featured_product_images{
+	height:100%; width:100%;
+}
+
+.featured_product_images_div{
+	height:70%; width:100%;
+}
+
+/*Start here to container_05 */
+
+.container_05{
+	height:300px;
+	width:100%;
+	
+	margin-top:80px;
+}
+
+.popular_categories_01_div{
+	height:90%;
+	width:280px;
+	overflow: hidden;
+	
+}
+
+.popular_categories_img{
+	
+	height:100%;
+	width:100%;
+	border-radius:10px;
+}
+
+
+.popular_categories_button_div{
+	position:relative;
+	margin-left:10px;
+	margin-top:-65px;
+	height:50px;
+	width:92%;
+	display:grid;
+	justify-content:center;
+	items-place:center;
+	align-items:center;
+	
+	
+	background-color:white;
+	border-radius:3px;
+}
+
+/* Start here to best seller CSS  */
+.container_06{
+	height:320px;
+	width:100%;
+	
+	margin-top:-1px;
+	overflow:auto;
+	overflow-y: hidden; 
+
+}
+	
+
+.best_seller_prods_div{
+	height:100%;
+	width:180px;
+	
+}
+
+.best_seller_img_container{
+	height:60%;
+	width:100%;
+	
+}
+
+.best_seller_img{
+	height:100%;
+	width:100%;
+}
+
+.seller_words_container_div{
+	height:25px;
+	width:100%;
+	display:grid;
+	justify-content:center;
+	items-place:center;
+	
+	align-items:center;
+}
+
+.email_subscriptions_logo_div{
+	position:absolute;
+	top:140%;
+	left: -150%;
+	height:30px;
+	width:200px;
+	
+}
+
+.facebook_logo {
+	height:100%;
+	width:30px;
+	float:left;
+	
+}
+
+.facebook_logo i{
+	font-size:30px;
+}
+
+.twitter_logo {
+	height:100%;
+	width:30px;
+	margin-left:39px;
+	
+}
+
+.twitter_logo i{
+	font-size:30px;
+}
+
+
+.linkdin_logo {
+	
+	height:100%;
+	width:30px;
+	margin-left:80px;
+	margin-top:-28px;
+	
+}
+
+.linkdin_logo i{
+	font-size:30px;
+	margin-top:-2px;
+}
+
+.google_logo {
+	height:100%;
+	width:30px;
+	margin-left:120px;
+	margin-top:-28px;
+
+}
+
+.google_logo i{
+	font-size:30px;
+	margin-top:-3px;
+}
+
+.insta_logo{
+	height:100%;
+	width:30px;
+	margin-left:160px;
+	margin-top:-28px;
+
+}
+
+.insta_logo i{
+	font-size:30px;
+	margin-top:-5px;
+}
+
+
+/* Start here to Letest News */
+.letest_news_heading_div{
+	width:100%;
+	height:40px;
+	margin-top:80px;
+	
+	display:grid;
+	justify-content:center;
+	items-place:center;
+	align-items:center;
+}
+
+.container_07{
+	height:380px;
+	width:100%;
+	margin-top:10px;
+	
+}
+
+.conatiner_07_offer_coupon_01{
+	height:100%;
+	width:380px;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	padding:20px;
+	
+}
+
+.conatiner_07_offer_coupon_02{
+	height:100%;
+	width:380px;
+	padding:20px;
+	margin-left:399px;
+	margin-top:-378px;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+	
+.conatiner_07_offer_coupon_03{
+	height:100%;
+	width:380px;
+	padding:20px;
+	float:right;
+	margin-top:-378px;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+.container_07_img_div{
+	height:200px;
+	width:100%;
+	
+}
+
+.container_07_peragraph_div{
+	width:100%;
+	height:40px;
+	margin-top:8px;
+	
+}
+
+
+/* Start here to Follow on Instagraam */
+
+.container_08{
+	width:100%;
+	margin-top:12px;
+	height:380px;
+	
+}
+
+.container_01_column{
+	height:100%;
+	width:180px;
+	
+}
+
+.container_02_column{
+	height:100%;
+	width:180px;
+	margin-left:200px;
+	margin-top:-378px;
+	
+}
+
+.container_03_column{
+	height:100%;
+	width:180px;
+	margin-left:400px;
+	margin-top:-378px;
+	
+}
+
+.container_04_column{
+	height:100%;
+	width:180px;
+	margin-left:600px;
+	margin-top:-378px;
+	
+}
+
+.container_08_img_contener{
+	height:180px;
+	width:100%;
+	
+}
+
+.what_they_say_about_us_div{
+	height:100%;
+	width:380px;
+	float:right;
+	margin-top:-378px;
+	background-color:#fff7e6;
+	
+}
+
+/* Start here to Footer Section */
+
+.footer_container{
+	width:1600px;
+	margin-top:200px;
+	height:430px;
+	margin-top:100px;
+	margin-left:-200px;
+	background-color:#333;
+	border:1px solid black;
+}
+
+.footer_all_small_div_conatiner{
+	
+	height:280px;
+	width:73%;
+	margin-left:200px;
+	margin-top:70px;
+	border:1px solid gray;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	
+}
+
+.footer_smallDiv_01{
+	height:100%;
+	width:400px;
+	
+}
+
+.footer_smallDiv_02{
+	height:100%;
+	width:265px;
+	margin-left:400px;
+	margin-top:-305px;
+	
+}
+
+.footer_smallDiv_03{
+	height:100%;
+	width:265px;
+	margin-left:665px;
+	margin-top:-318px;
+	
+}
+
+.footer_smallDiv_04{
+	height:100%;
+	width:235px;
+	float:right;
+	margin-top:-278px;
+	
+}
+
+.footer_fexmone_button_div{
+	width:100%;
+	color:white;
+	background-color:#333;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+.email_div_footer{
+	width:100%;
+	background-color:#333;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+
+.footer_all_button_container{
+		height:200px;
+		width:100%;
+		margin-top:40px;
+		
+}
+
+.footer_about_us_buttons{
+	width:100%;
+	height:30px;
+	color:gray;
+	background-color:#333;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+.foorer_card_logo{
+	height:33px;
+	width:73%;
+	
+	margin-top:20px;
+	margin-left:200px;
+}
+
+.footer_cards_logo_img_container{
+	height:100%;
+	width:170px;
+	
+}
+
+/* Start Here to all Hovers */
+
+.popular_categories_button_div:hover{
+	background-color:#ff3385;
+	
+	color:white;
+}
+
+
+
+.popular_categories_01_div img{
+	transition: transform .5s ease;
+	
+}
+
+.popular_categories_01_div:hover img{
+	transform: scale(1.1);
+	
+}
